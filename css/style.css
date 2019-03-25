@@ -1,0 +1,177 @@
+body {
+  background-color: #E5EEC1;
+  text-decoration: none;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  text-align: center;
+}
+
+textarea {
+  max-height: 50px;
+  width: 300px;
+}
+
+
+ A:link { text-decoration: none; }
+ A:visited { text-decoration: none; }
+ A:active { text-decoration: none; }
+ A:hover { 
+     text-decoration: none; /* Ссылка подчеркнутая и надчеркнутая */
+     color: red; /* Цвет ссылки */
+ } 
+
+
+.block {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  flex: auto;
+}
+
+.header {
+  background-color: #E5EEC1;
+  width: 100%;
+  min-height: 70px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  color: #333333;
+  font-family: "Tahoma", sans-serif;
+}
+.header h1{
+}
+
+.main_menu{
+  background-color: #A2D4AB;
+  height: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.menu_button {
+  background-color: #3EACA8;
+  border: solid #E5EEC1 1px;
+  border-radius: 50px;
+  text-align: center;
+  min-height: 30px;
+  line-height: 30px;
+  margin-left: 30px;
+  font-family: "Tahoma", sans-serif;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.b1 {
+  float: left;
+  width: 15%;
+  margin-right: 9px;
+}
+
+.b2 {
+  float: left;
+  width: 15%;
+  margin-right: 9px;
+}
+
+.b3 {
+  float: left;
+  width: 15%;
+  margin-right: 9px;
+}
+
+.b4 {
+  float: left;
+  width: 15%;
+  margin-right: 9px;
+}
+
+.b5 {
+  float: left;
+  width: 20%;
+  margin-right: 9px;
+}
+
+.block2 {
+  float: left;
+  clear: both;
+  background-color: #3EACA8;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 480px;
+  align: center;
+}
+
+.block3 {
+  float: left;
+  background-color: #547A82;
+  margin-bottom: 0px;
+  text-align: center;
+  color: white;
+  min-height: 600px;
+}
+
+.item { 
+float: left;
+display: inline-block; 
+width: 300px; 
+height: auto; 
+margin-top: 10px; 
+margin-bottom: 50px; 
+margin-right: 50px; 
+text-align: center; 
+font-size: 15px 
+} 
+
+.item_img { 
+width: 200px; 
+height: 200px; 
+background-color: #3EACA8; 
+margin-bottom: 10px; 
+margin-left: auto; 
+margin-right: auto; 
+}
+
+.big {
+  width: 600px; 
+  height: 400px; 
+  float: none;
+}
+
+.big-left {
+  width: 600px; 
+  height: 500px 
+  float: left;
+}
+
+.maptext {
+  margin-right: 30px;
+  float: none;
+}
+
+.logo {
+  max-height: 200px;
+}
+
+.footer {
+  float: left;
+  margin-bottom: 0px;
+  background-color: #5A5050;
+  color: lightgray;
+  min-height: 40px;
+  line-height: 40px;
+  vertical-align: bottom;
+}
+
+footer {
+  flex-shrink: 0;
+}
