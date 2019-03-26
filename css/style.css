@@ -1,4 +1,4 @@
-body {
+﻿body {
   background-color: #E5EEC1;
   text-decoration: none;
 }
@@ -120,6 +120,10 @@ textarea {
   min-height: 600px;
 }
 
+.block4 {
+  
+}
+
 .item { 
 float: left;
 display: inline-block; 
@@ -133,10 +137,9 @@ font-size: 15px
 } 
 
 .item_img { 
-width: 200px; 
-height: 200px; 
+width: 600px; 
+height: 400px; 
 background-color: #3EACA8; 
-margin-bottom: 10px; 
 margin-left: auto; 
 margin-right: auto; 
 }
@@ -147,15 +150,12 @@ margin-right: auto;
   float: none;
 }
 
-.big-left {
-  width: 600px; 
-  height: 500px 
-  float: left;
-}
 
 .maptext {
-  margin-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
   float: none;
+  margin-top: 30px;
 }
 
 .logo {
@@ -174,4 +174,8 @@ margin-right: auto;
 
 footer {
   flex-shrink: 0;
+}
+
+.forma {
+  width: 200px;
 }
